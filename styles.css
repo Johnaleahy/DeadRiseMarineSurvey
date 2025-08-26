@@ -1,6 +1,8 @@
+
 :root {
     --brand-color: #00334d;
     --light-bg: #f9f9f9;
+
 }
 
 * {
@@ -158,6 +160,7 @@ footer {
     padding: 2rem 1rem;
     font-size: 0.9rem;
     background: #fff;
+
 }
 
 .footer-content {
@@ -166,6 +169,7 @@ footer {
     align-items: center;
     gap: 1rem;
     max-width: 1200px;
+
     margin: 0 auto;
 }
 
@@ -201,4 +205,6 @@ footer address {
         flex-direction: row;
         justify-content: space-between;
     }
+
 }
+
