@@ -1,0 +1,169 @@
+:root {
+  --primary: #4c9f70;
+  --light-bg: #f5f7f4;
+  --text-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background: #fff;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.sign-in {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+}
+
+.hero-text span {
+  color: var(--primary);
+}
+
+.hero-image {
+  flex: 1 1 400px;
+}
+
+.hero-image img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.btn {
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn.secondary {
+  background: var(--light-bg);
+  color: var(--text-color);
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats h2 {
+  margin: 0;
+  color: var(--primary);
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background: var(--light-bg);
+}
+
+.service-card {
+  flex: 1 1 300px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.service-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: var(--light-bg);
+  text-align: center;
+  padding: 2rem;
+}
+
+footer img {
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .hero {
+    padding: 2rem 1rem;
+  }
+  .cta-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .stats {
+    justify-content: center;
+  }
+}
