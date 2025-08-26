@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #00334d;
+    --footer-bg: #f0f0f0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.hero img,
+.lighthouse img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0 1rem;
+}
+
+.lighthouse {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--footer-bg);
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer address {
+    font-style: normal;
+    line-height: 1.4;
+}
+
+.abyc-logo {
+    max-height: 60px;
+    width: auto;
+}
+
+@media (min-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        text-align: left;
+    }
+
+    .branding {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .tagline {
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+
+    .main-nav ul {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
