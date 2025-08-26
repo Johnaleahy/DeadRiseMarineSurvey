@@ -196,6 +196,7 @@ footer address {
     .hero-image {
         flex: 1;
     }
+
     .hero-text h1 {
         font-size: 3rem;
     }
@@ -204,4 +205,6 @@ footer address {
         flex-direction: row;
         justify-content: space-between;
     }
+
 }
+
