@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-  height: 40px;
+  height: 80px;
 }
 
 nav ul {
@@ -148,7 +148,7 @@ footer {
   padding: 2rem;
 }
 
-footer img {
+.abyc-logo {
   height: 60px;
 }
 
