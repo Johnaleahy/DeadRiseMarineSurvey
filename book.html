@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact DeadRise Marine Surveying Group with your questions." />
-    <title>Ask A Question - DeadRise Marine Surveying Group</title>
+    <meta name="description" content="Book a marine survey with DeadRise Marine Surveying Group." />
+    <title>Book A Survey - DeadRise Marine Surveying Group</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -20,7 +20,7 @@
     </header>
     <main>
         <section class="form-section">
-            <h1>Ask A Question</h1>
+            <h1>Book A Survey</h1>
             <form action="#" method="post">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required />
@@ -28,8 +28,24 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required />
 
-                <label for="question">Question</label>
-                <textarea id="question" name="question" rows="5" required></textarea>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="vessel">Vessel Type</label>
+                <input type="text" id="vessel" name="vessel" />
+
+                <label for="survey">Survey Type</label>
+                <select id="survey" name="survey">
+                    <option value="pre-purchase">Pre-Purchase</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="damage">Damage Assessment</option>
+                </select>
+
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" />
+
+                <label for="details">Additional Details</label>
+                <textarea id="details" name="details" rows="5"></textarea>
 
                 <button type="submit" class="btn primary">Submit</button>
             </form>
