@@ -210,11 +210,11 @@ footer address {
     display: flex;
     gap: 1rem;
     align-items: center;
+    justify-content: center;
 }
 
-.abyc-logo,
-.chapman-logo {
-    max-height: 60px;
+.abyc-logo {
+    height: 60px;
     width: auto;
 }
 

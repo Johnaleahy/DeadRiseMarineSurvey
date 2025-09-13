@@ -155,9 +155,9 @@ footer {
   align-items: center;
 }
 
-.abyc-logo,
-.chapman-logo {
+.abyc-logo {
   height: 60px;
+  width: auto;
 }
 
 @media (max-width: 768px) {
