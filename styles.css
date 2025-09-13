@@ -206,7 +206,14 @@ footer address {
     line-height: 1.4;
 }
 
-.abyc-logo {
+.footer-logos {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.abyc-logo,
+.chapman-logo {
     max-height: 60px;
     width: auto;
 }

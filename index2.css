@@ -148,7 +148,15 @@ footer {
   padding: 2rem;
 }
 
-.abyc-logo {
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.abyc-logo,
+.chapman-logo {
   height: 60px;
 }
 
