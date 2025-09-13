@@ -148,8 +148,16 @@ footer {
   padding: 2rem;
 }
 
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
 .abyc-logo {
   height: 60px;
+  width: auto;
 }
 
 @media (max-width: 768px) {
